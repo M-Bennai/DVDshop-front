@@ -1,0 +1,17 @@
+html {
+  background-size: cover;
+  background-repeat: no-repeat;
+  //background: #001e33;
+  //background: #001625;
+  // background: #010d16;
+  min-height: 100%;
+  background-attachment: fixed;
+  background: linear-gradient(180deg, #001524 0%, #000000 100%);
+}
+
+.dvd-container-homepage {
+  color: white;
+  img {
+    width: 20rem;
+  }
+}

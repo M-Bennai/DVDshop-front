@@ -1,0 +1,126 @@
+.signin-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Bai Jamjuree", sans-serif;
+
+  .title-signin-div {
+    display: flex;
+    width: 468px;
+    flex-direction: column;
+    h1 {
+      font-size: 2rem;
+      margin-top: 3rem;
+    }
+
+    p {
+      margin-top: 3rem;
+
+      a {
+        color: #045b95;
+        font-weight: 600;
+      }
+    }
+  }
+  form {
+    width: 468px;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+
+  .first-last-name-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+
+  .first-name-div {
+    display: flex;
+    flex-direction: column;
+
+    .first-name-input {
+      margin-top: 5px;
+      width: 223px;
+      height: 55px;
+      border: none;
+      background: rgba(50, 54, 69, 0.56);
+      border-radius: 20px;
+      padding: 20px;
+      color: white;
+    }
+  }
+  .last-name-div {
+    display: flex;
+    flex-direction: column;
+
+    .last-name-input {
+      margin-top: 5px;
+      width: 223px;
+      height: 55px;
+      border: none;
+      background: rgba(50, 54, 69, 0.56);
+      border-radius: 20px;
+      padding: 20px;
+      color: white;
+    }
+  }
+
+  .address-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    .address-input {
+      margin-top: 5px;
+      height: 55px;
+      border: none;
+      background: rgba(50, 54, 69, 0.56);
+      border-radius: 20px;
+      padding: 20px;
+      color: white;
+    }
+  }
+
+  .email-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    .email-input {
+      margin-top: 5px;
+      height: 55px;
+      border: none;
+      background: rgba(50, 54, 69, 0.56);
+      border-radius: 20px;
+      padding: 20px;
+      color: white;
+    }
+  }
+
+  .password-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    .password-input {
+      margin-top: 5px;
+      height: 55px;
+      border: none;
+      background: rgba(50, 54, 69, 0.56);
+      border-radius: 20px;
+      padding: 20px;
+      color: white;
+    }
+  }
+
+  .button-create-account {
+    width: 169px;
+    height: 49px;
+    background: #045b95;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+    color: white;
+  }
+}

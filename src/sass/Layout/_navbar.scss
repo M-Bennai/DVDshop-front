@@ -1,0 +1,52 @@
+.nav-navbar {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  height: 6vh;
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 20px;
+  font-size: 0.875em;
+
+  .logo-container {
+    margin-left: 4rem;
+
+    img {
+      margin-top: 8px;
+    }
+  }
+
+  .menu-container {
+    margin-left: 4rem;
+    display: flex;
+    font-size: 0.875em;
+    align-items: center;
+    width: 100%;
+    a {
+      padding: 0.8em 1.3em;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  .user-shop-container {
+    display: flex;
+    padding: 0.8em 0;
+    margin-right: 4rem;
+    align-items: center;
+    font-size: 0.875em;
+    a {
+      padding: 0.8em 1.3em;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      width: 4.7rem;
+
+      img {
+        width: 1.2rem;
+        margin-top: 4px;
+      }
+    }
+  }
+}
