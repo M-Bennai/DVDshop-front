@@ -11,7 +11,7 @@ const Profile = () => {
           marginTop: "5rem",
         }}
       >
-        profile page
+        profile
       </p>
     </div>
   );
