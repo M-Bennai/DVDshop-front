@@ -1,0 +1,94 @@
+.section-movies {
+  display: flex;
+
+  justify-content: center;
+  font-family: SF Pro Display;
+
+  .content-movies {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin-top: 7rem;
+
+    .right-content {
+      width: 1000px;
+      h1 {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+
+        color: #ffffff;
+      }
+    }
+
+    .container-display-movies {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: auto;
+      grid-gap: 18px;
+      align-items: center;
+    }
+
+    .div-movie {
+      margin-top: 2rem;
+      width: 296px;
+      height: 530px;
+      color: white;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 1.5px 2.5px 25px rgba(184, 184, 184, 0);
+        transform: scale(1.05);
+      }
+
+      span {
+        font-family: Dune Rise;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+
+        color: #ffffff;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+      }
+
+      img {
+        width: 296px;
+        height: 459px;
+        object-fit: fill;
+        border: 1px solid #171717;
+        box-sizing: border-box;
+        &:hover {
+        }
+      }
+    }
+  }
+
+  .category-list {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    padding-top: 10rem;
+    li {
+      padding-bottom: 2rem;
+      font-family: SF Pro Display;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 26px;
+      text-transform: capitalize;
+
+      color: #4a4a4a;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+}

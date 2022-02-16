@@ -7,11 +7,29 @@ html {
   min-height: 100%;
   background-attachment: fixed;
   background: linear-gradient(180deg, #001524 0%, #000000 100%);
+
+  .dvd-banniere {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+  }
+}
+
+.descrip-banniere {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+
+  width: 100%;
+  .descrip {
+    width: 33rem;
+    padding-bottom: 3rem;
+  }
 }
 
 .dvd-container-homepage {
   color: white;
   img {
-    width: 20rem;
+    width: 1rem;
   }
 }
